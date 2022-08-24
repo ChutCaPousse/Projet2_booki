@@ -480,3 +480,28 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .size-lien {
+    flex-direction: row;
+  }
+  .size-lien12 {
+    order: 1;
+    width: 100%;
+    margin-left: 0;
+  }
+  .size-lien-mobile {
+    width: 50%;
+    border-top: 0;
+    border-bottom: 5px solid #f2f2f2;
+  }
+  .size-liens {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .size-lien-mobile:hover {
+    border-top: 0;
+    border-bottom: 5px solid #0065fc;
+  }
+  
+}
