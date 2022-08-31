@@ -503,5 +503,13 @@ body {
     border-top: 0;
     border-bottom: 5px solid #0065fc;
   }
+  .size-hebergements{
+    border-radius: 0%;
+    margin-left: 0px;
+  }
   
+  .size-populaires{
+    border-radius: 0%;
+    margin-block-start: 0px ;
+  }
 }
